@@ -1,0 +1,33 @@
+Hospital Readmissions Analysis
+This project looks at around 25,000 hospital visits to explore what factors might be tied to patients being readmitted. The data includes details like diagnoses, length of stay, lab procedures, and medication changes.
+
+Highlights
+Found that patients who were readmitted tended to stay slightly longer on average.
+
+Circulatory issues were the most common primary diagnosis, followed by respiratory, digestive, and diabetes-related conditions.
+
+Readmission rates were surprisingly similar whether or not patients had recent medication changes, suggesting other factors play a big role.
+
+Built Power BI visuals to compare average stays, procedures, and readmissions across age groups and diabetes medication use.
+
+Tools Used
+Python (pandas, matplotlib) for cleaning, exploring, and doing initial charts.
+
+SQLite for quick aggregation queries and summaries.
+
+Jupyter Notebook to document the whole process step by step.
+
+Power BI for an interactive dashboard to dig into readmissions by age, tests, and treatments.
+
+Recommendations
+Look more closely at circulatory and respiratory cases, since they’re both common and show notable readmission levels.
+
+Explore additional patient factors (like comorbidities or follow-up care) to see what else might drive readmissions beyond length of stay or medication changes.
+
+Project Files
+/notebooks/hospital-readmissions.ipynb: Jupyter notebook with all data prep and analysis.
+
+/data/hospital_readmissions.csv: cleaned dataset used for analysis and dashboards.
+
+Hospital_Readmission_Analysis.pbix: Power BI file with interactive charts on readmissions, length of stay, and diagnoses.
+
